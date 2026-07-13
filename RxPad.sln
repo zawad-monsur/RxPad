@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37411.7 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{DB2F0314-9FF3-43AB-AC83-53B38A960955}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{7DA7D086-6E26-4E64-884F-3515F47FA1CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{A83EFF2C-96E5-4F29-A17B-B7257AE084F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RxPad.Domain", "RxPad.Domain\RxPad.Domain.csproj", "{F2DAAC16-3490-4622-89F7-831EA4A28E09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RxPad.Application", "RxPad.Application\RxPad.Application.csproj", "{CCD7E81C-C7BC-4B5B-9F3A-20E99763CBAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RxPad.Infrastructure", "RxPad.Infrastructure\RxPad.Infrastructure.csproj", "{7B4902E7-819C-4632-9E85-9BEB07C37825}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RxPad.API", "RxPad.API\RxPad.API.csproj", "{C2DE0946-DA76-426A-AA69-7C8706ABACAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2DAAC16-3490-4622-89F7-831EA4A28E09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2DAAC16-3490-4622-89F7-831EA4A28E09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2DAAC16-3490-4622-89F7-831EA4A28E09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2DAAC16-3490-4622-89F7-831EA4A28E09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCD7E81C-C7BC-4B5B-9F3A-20E99763CBAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCD7E81C-C7BC-4B5B-9F3A-20E99763CBAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCD7E81C-C7BC-4B5B-9F3A-20E99763CBAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCD7E81C-C7BC-4B5B-9F3A-20E99763CBAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B4902E7-819C-4632-9E85-9BEB07C37825}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B4902E7-819C-4632-9E85-9BEB07C37825}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B4902E7-819C-4632-9E85-9BEB07C37825}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B4902E7-819C-4632-9E85-9BEB07C37825}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2DE0946-DA76-426A-AA69-7C8706ABACAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2DE0946-DA76-426A-AA69-7C8706ABACAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2DE0946-DA76-426A-AA69-7C8706ABACAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2DE0946-DA76-426A-AA69-7C8706ABACAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DB2F0314-9FF3-43AB-AC83-53B38A960955} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{7DA7D086-6E26-4E64-884F-3515F47FA1CD} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{A83EFF2C-96E5-4F29-A17B-B7257AE084F0} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{F2DAAC16-3490-4622-89F7-831EA4A28E09} = {DB2F0314-9FF3-43AB-AC83-53B38A960955}
+		{CCD7E81C-C7BC-4B5B-9F3A-20E99763CBAB} = {DB2F0314-9FF3-43AB-AC83-53B38A960955}
+		{7B4902E7-819C-4632-9E85-9BEB07C37825} = {7DA7D086-6E26-4E64-884F-3515F47FA1CD}
+		{C2DE0946-DA76-426A-AA69-7C8706ABACAA} = {A83EFF2C-96E5-4F29-A17B-B7257AE084F0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {281ED3FB-A5B4-4B1C-BBAA-E985FD86A200}
+	EndGlobalSection
+EndGlobal
